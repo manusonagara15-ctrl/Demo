@@ -1,0 +1,339 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": {
+        "algo": "pbkdf2_sha256",
+        "iters": 160000,
+        "salt": "47243e6102660199dafe87ea465ea70c",
+        "hash": "eb1a494fcb44abee775efa6effc6fa27b76e3e0d2552ea4d454f46dc95a2a1e2"
+      },
+      "role": "admin",
+      "created": "2025-08-27T15:41:27"
+    },
+    {
+      "username": "aaa",
+      "password": {
+        "algo": "pbkdf2_sha256",
+        "iters": 160000,
+        "salt": "14b6e64b82556646770b4a398185c7b1",
+        "hash": "6ab4e8f05cf2cc086d102ba03e5acff3c118be6bd2bfe7118eac378ea12ec57f"
+      },
+      "role": "user",
+      "created": "2025-08-27T15:46:58"
+    },
+    {
+      "username": "Kavya",
+      "password": {
+        "algo": "pbkdf2_sha256",
+        "iters": 160000,
+        "salt": "b438f339930154f656f5a54aa52f4f66",
+        "hash": "7ac1a8f603b6657ca0470b24896f682583e1416b10df3b3b61cc160021f1195a"
+      },
+      "role": "user",
+      "created": "2025-08-27T21:22:30"
+    },
+    {
+      "username": "Rajesh",
+      "password": {
+        "algo": "pbkdf2_sha256",
+        "iters": 160000,
+        "salt": "3c34675ecfc29ad2259cc8d4a84ea685",
+        "hash": "ece017e899e06dd86b73d249325f8b8332745f5548535310c9e9ae3b20a5c895"
+      },
+      "role": "user",
+      "created": "2025-08-27T21:32:27"
+    },
+    {
+      "username": "shweta",
+      "password": {
+        "algo": "pbkdf2_sha256",
+        "iters": 160000,
+        "salt": "658e304ff75f6042d1dedbf3cec74ec2",
+        "hash": "34ceed1e557c9761669875a5e8da87e3b8d9553f7d5eae6e829d4322bdb89a0b"
+      },
+      "role": "user",
+      "created": "2025-09-02T15:22:42"
+    },
+    {
+      "username": "xyz",
+      "password": {
+        "algo": "pbkdf2_sha256",
+        "iters": 160000,
+        "salt": "b4baf24fde189190fda01e3b3b1bfee6",
+        "hash": "7fd79cd9a3c1d0041b38674af4910157bf1535b5ff47ab66533812232781466a"
+      },
+      "role": "user",
+      "created": "2025-09-03T21:56:25"
+    },
+    {
+      "username": "aaabbbccc",
+      "password": {
+        "algo": "pbkdf2_sha256",
+        "iters": 160000,
+        "salt": "e803eeb04ea7b3544e0bff048a12285c",
+        "hash": "f47de2dd387dc203ab0ecc9e6c13b21dd0eb5b468bd08c4b10b95f6d10316e9a"
+      },
+      "role": "user",
+      "created": "2025-09-03T22:01:19"
+    },
+    {
+      "username": "Janki",
+      "password": {
+        "algo": "pbkdf2_sha256",
+        "iters": 160000,
+        "salt": "b74140684fe551e3e9d33e0fe836900c",
+        "hash": "f1f8abcc9c7974c68d33094769ba5d98a8caa812863cd7a0bd033f515e0d48a5"
+      },
+      "role": "user",
+      "created": "2025-09-05T11:57:04"
+    }
+  ],
+  "products": [
+    {
+      "name": "Paracetamol 500mg",
+      "brand": "Crocin",
+      "price": 5.0,
+      "stock": 200,
+      "expiry": "2026-12-05",
+      "description": "fever",
+      "id": "P129566C7"
+    },
+    {
+      "name": "Amoxicillin 500mg",
+      "brand": "Mox",
+      "price": 85.0,
+      "stock": 800,
+      "expiry": "2025-09-04",
+      "description": "Antibiotic",
+      "id": "PC718935F"
+    },
+    {
+      "name": "Centirizine 10mg",
+      "brand": "Centzine",
+      "price": 15.0,
+      "stock": 200,
+      "expiry": "2027-04-05",
+      "description": "Antihistamine",
+      "id": "P086B471C"
+    },
+    {
+      "name": "Metformin 500mg",
+      "brand": "Glycomet",
+      "price": 35.0,
+      "stock": 150,
+      "expiry": "2026-01-02",
+      "description": "Type 2 diabetes",
+      "id": "P8A6478F2"
+    },
+    {
+      "name": "Pantoprazole 40mg",
+      "brand": "Pantocid",
+      "price": 90.0,
+      "stock": 70,
+      "expiry": "2025-07-06",
+      "description": "Acidity",
+      "id": "PE6C1C970"
+    },
+    {
+      "name": "Ibuprofen 400mg",
+      "brand": "Brufen",
+      "price": 50.0,
+      "stock": 1000,
+      "expiry": "2026-05-06",
+      "description": "Anti-Inflammatory",
+      "id": "P9DF87124"
+    },
+    {
+      "name": "Losartan 50mg",
+      "brand": "Cozaar",
+      "price": 300.0,
+      "stock": 2000,
+      "expiry": "2026-05-06",
+      "description": "Treat high blood pressure",
+      "id": "P932B6F41"
+    },
+    {
+      "name": "Simvastatin 20mg",
+      "brand": "Zocor",
+      "price": 250.0,
+      "stock": 1500,
+      "expiry": "2026-06-07",
+      "description": "Reduce Heart disease",
+      "id": "P6EED6371"
+    },
+    {
+      "name": "Loratadine 10mg",
+      "brand": "Claritin",
+      "price": 60.0,
+      "stock": 2975,
+      "expiry": "2025-12-04",
+      "description": "Antihistamine",
+      "id": "P447F8A10"
+    },
+    {
+      "name": "Amlodipine 5mg",
+      "brand": "Norvasc",
+      "price": 120.0,
+      "stock": 1499,
+      "expiry": "2026-08-04",
+      "description": "Tread high bp and chest pain",
+      "id": "PE207C064"
+    },
+    {
+      "name": "Metoprolol 50mg",
+      "brand": "Lopressor",
+      "price": 180.0,
+      "stock": 2000,
+      "expiry": "2026-11-03",
+      "description": "Treat high bp, chest-pain, heart failure",
+      "id": "P896DE4EE"
+    },
+    {
+      "name": "Omeprazole",
+      "brand": "Omez",
+      "price": 20.0,
+      "stock": 100,
+      "expiry": "2024-08-11",
+      "description": "Reduce stomach acid",
+      "id": "P24C6FFFC"
+    },
+    {
+      "name": "aaa",
+      "brand": "ccc",
+      "price": 10.0,
+      "stock": 200,
+      "expiry": "2029-07-09",
+      "description": "kehwoyto",
+      "id": "P111BB9D3"
+    }
+  ],
+  "transactions": [
+    {
+      "tx_id": "T33DCA62357",
+      "datetime": "2025-08-27T15:45:08",
+      "items": [
+        {
+          "product_id": "P129566C7",
+          "name": "Paracetamol 500mg",
+          "qty": 10,
+          "unit_price": 5.0
+        }
+      ],
+      "total": 50.0,
+      "customer": "Walk-in"
+    },
+    {
+      "tx_id": "TBB93D40F36",
+      "datetime": "2025-08-27T15:48:21",
+      "items": [
+        {
+          "product_id": "P129566C7",
+          "name": "Paracetamol 500mg",
+          "qty": 10,
+          "unit_price": 5.0
+        }
+      ],
+      "total": 50.0,
+      "customer": "aaa"
+    },
+    {
+      "tx_id": "T46DC5F0885",
+      "datetime": "2025-08-27T20:52:44",
+      "items": [
+        {
+          "product_id": "P8A6478F2",
+          "name": "Metformin 500mg",
+          "qty": 100,
+          "unit_price": 35.0
+        }
+      ],
+      "total": 3500.0,
+      "customer": "Walk-in"
+    },
+    {
+      "tx_id": "TD524FC48B7",
+      "datetime": "2025-08-27T21:06:11",
+      "items": [
+        {
+          "product_id": "PE6C1C970",
+          "name": "Pantoprazole 40mg",
+          "qty": 10,
+          "unit_price": 90.0
+        }
+      ],
+      "total": 900.0,
+      "customer": "aaa"
+    },
+    {
+      "tx_id": "T40C62BA5B5",
+      "datetime": "2025-08-27T21:33:27",
+      "items": [
+        {
+          "product_id": "P447F8A10",
+          "name": "Loratadine 10mg",
+          "qty": 25,
+          "unit_price": 60.0
+        }
+      ],
+      "total": 1500.0,
+      "customer": "Rajesh"
+    },
+    {
+      "tx_id": "T6D6832D84F",
+      "datetime": "2025-09-02T15:20:57",
+      "items": [
+        {
+          "product_id": "PE207C064",
+          "name": "Amlodipine 5mg",
+          "qty": 1000,
+          "unit_price": 120.0
+        }
+      ],
+      "total": 120000.0,
+      "customer": "Walk-in"
+    },
+    {
+      "tx_id": "T025E34420C",
+      "datetime": "2025-09-02T15:23:54",
+      "items": [
+        {
+          "product_id": "PE6C1C970",
+          "name": "Pantoprazole 40mg",
+          "qty": 20,
+          "unit_price": 90.0
+        }
+      ],
+      "total": 1800.0,
+      "customer": "shweta"
+    },
+    {
+      "tx_id": "TABE1E91647",
+      "datetime": "2025-09-05T11:56:10",
+      "items": [
+        {
+          "product_id": "P111BB9D3",
+          "name": "aaa",
+          "qty": 100,
+          "unit_price": 10.0
+        }
+      ],
+      "total": 1000.0,
+      "customer": "Walk-in"
+    },
+    {
+      "tx_id": "TF3CCDF283F",
+      "datetime": "2025-09-05T12:15:21",
+      "items": [
+        {
+          "product_id": "PE207C064",
+          "name": "Amlodipine 5mg",
+          "qty": 1,
+          "unit_price": 120.0
+        }
+      ],
+      "total": 120.0,
+      "customer": "1"
+    }
+  ]
+}
